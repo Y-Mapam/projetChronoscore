@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1746606793">
+  <File Type="ROUTE-PWR" Name="chronoscore_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="chronoscore.tcl"/>
+  <File Type="BITSTR-MMI" Name="chronoscore.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="chronoscore_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="chronoscore_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="chronoscore_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="chronoscore_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="chronoscore_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="chronoscore_opt.dcp"/>
+  <File Type="OPT-DRC" Name="chronoscore_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="chronoscore.hwdef"/>
+  <File Type="PWROPT-DCP" Name="chronoscore_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="chronoscore_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="chronoscore_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="chronoscore_placed.dcp"/>
+  <File Type="PLACE-IO" Name="chronoscore_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="chronoscore_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="chronoscore_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="chronoscore_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="chronoscore_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="chronoscore_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="chronoscore_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="chronoscore.bin"/>
+  <File Type="PLACE-TIMING" Name="chronoscore_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="chronoscore_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="chronoscore.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="chronoscore_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="chronoscore_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="chronoscore_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="chronoscore.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="chronoscore_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="chronoscore_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="chronoscore_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="chronoscore_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="chronoscore_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="chronoscore_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="chronoscore_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="chronoscore_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="chronoscore_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="chronoscore_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="chronoscore_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="chronoscore_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="chronoscore_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="chronoscore_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="chronoscore_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="chronoscore_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="chronoscore_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="chronoscore_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="chronoscore_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="chronoscore_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="chronoscore_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="chronoscore_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="chronoscore_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="chronoscore_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="chronoscore_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="chronoscore_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="chronoscore_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="chronoscore.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="chronoscore_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="chronoscore_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="chronoscore.nky"/>
+  <File Type="BITSTR-BMM" Name="chronoscore_bd.bmm"/>
+  <File Type="PDI-FILE" Name="chronoscore.pdi"/>
+  <File Type="RCFI_FILE" Name="chronoscore.rcfi"/>
+  <File Type="CFI_FILE" Name="chronoscore.cfi"/>
+  <File Type="RNPI_FILE" Name="chronoscore.rnpi"/>
+  <File Type="NPI_FILE" Name="chronoscore.npi"/>
+  <File Type="RBD_FILE" Name="chronoscore.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="chronoscore.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="chronoscore.sysdef"/>
+  <File Type="BG-BGN" Name="chronoscore.bgn"/>
+  <File Type="BG-DRC" Name="chronoscore.drc"/>
+  <File Type="RDI-RDI" Name="chronoscore.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/EQU45.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Tregister_1b.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/XOR_2b.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/chronometer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter_0to5.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter_0to9.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter_3b_E.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_8x1x1b.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_8x1x4b.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register_1b.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register_1b_E.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register_8b.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register_D_1b.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/score.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/timeGenerator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/transcoder_3v8.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/transcoder_7segs.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/chronoscore.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/test_score.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="chronoscore"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/chronoscore.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/chronometer.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/display.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/score.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

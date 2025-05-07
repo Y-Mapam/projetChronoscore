@@ -1,0 +1,116 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat May  3 16:57:57 2025
+# Process ID: 10900
+# Current directory: C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7744 C:\Users\mapam\Documents\Polytech\ETN\S8\SOPC\projetTableauScorev3\projetTableauScore\projetTableauScore.xpr
+# Log file: C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/vivado.log
+# Journal file: C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore\vivado.jou
+# Running On: MAPNitro5, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16948 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source test_counter_0to9.tcl
+add_wave {{/test_counter_0to9}} 
+close_sim
+launch_simulation
+source test_counter_0to9.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top chronometer [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/sim_1/new/test_chrono.vhd w ]
+add_files -fileset sim_1 C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/sim_1/new/test_chrono.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+source test_counter_0to9.tcl
+add_wave {{/test_counter_0to9}} 
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_chrono [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_chrono [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source test_chrono.tcl
+close_sim
+launch_simulation
+source test_chrono.tcl
+close_sim
+launch_simulation
+source test_chrono.tcl
+close_sim
+launch_simulation
+source test_chrono.tcl
+close_sim
+launch_simulation
+source test_chrono.tcl
+run 10000 s
+relaunch_sim
+close_sim
+launch_simulation
+source test_chrono.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source test_chrono.tcl
+close_sim
+launch_simulation
+source test_chrono.tcl
+run all
+run 1 s
+close_sim
+launch_simulation
+source test_chrono.tcl
+run 1 s
+relaunch_sim
+close_sim
+launch_simulation
+source test_chrono.tcl
+run 100 ms
+close_sim
+launch_simulation
+launch_simulation
+source test_chrono.tcl
+run 100 ms
+step
+step
+step
+step
+step
+step
+run 1000 ms
+close_sim
+launch_simulation
+source test_chrono.tcl
+run 1000 ms
+close_sim
+launch_simulation
+source test_chrono.tcl
+run 10 ms
+close_sim
+launch_simulation
+source test_chrono.tcl
+run 10 ms
+close_sim
+close_project
+create_project versionProf C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/versionProf -part xc7vx485tffg1157-1

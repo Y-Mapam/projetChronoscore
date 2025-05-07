@@ -1,0 +1,268 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Wed May  7 10:34:00 2025
+| Host         : MAPNitro5 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file chronoscore_methodology_drc_routed.rpt -pb chronoscore_methodology_drc_routed.pb -rpx chronoscore_methodology_drc_routed.rpx
+| Design       : chronoscore
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 38
++-----------+----------+------------------------------------------+------------+
+| Rule      | Severity | Description                              | Violations |
++-----------+----------+------------------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert             | 4          |
+| TIMING-16 | Warning  | Large setup violation                    | 12         |
+| TIMING-20 | Warning  | Non-clocked latch                        | 2          |
+| XDCH-2    | Warning  | Same min and max delay values on IO port | 20         |
++-----------+----------+------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell U2/REG1_L2/Y_reg_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) U2/XOR_L/Y_reg/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell U2/REG1_V2/Y_reg_i_3__0, with 2 or more inputs, drives asynchronous preset/clear pin(s) U2/XOR_V/Y_reg/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell U2/REG2_L/Y_reg_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) U2/XOR_L/Y_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell U2/REG2_V/Y_reg_i_2__0, with 2 or more inputs, drives asynchronous preset/clear pin(s) U2/XOR_V/Y_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -5.687 ns between U4/U7/Q_reg[1]/C (clocked by GCLK) and LEDS[1] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -5.890 ns between U4/U7/Q_reg[2]/C (clocked by GCLK) and LEDS[2] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -5.952 ns between U4/U7/Q_reg[5]/C (clocked by GCLK) and LEDS[5] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -5.963 ns between U4/U7/Q_reg[4]/C (clocked by GCLK) and LEDS[4] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -6.004 ns between U4/U7/Q_reg[0]/C (clocked by GCLK) and LEDS[0] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -6.032 ns between U4/U7/Q_reg[6]/C (clocked by GCLK) and LEDS[6] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -6.033 ns between U4/U7/Q_reg[3]/C (clocked by GCLK) and LEDS[3] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -6.451 ns between U4/U7/Q_reg[7]/C (clocked by GCLK) and LEDS[7] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -9.198 ns between TEST (clocked by GCLK) and AN[3] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -9.363 ns between TEST (clocked by GCLK) and AN[2] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -9.376 ns between TEST (clocked by GCLK) and AN[1] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -9.509 ns between TEST (clocked by GCLK) and AN[0] (clocked by GCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch U2/XOR_L/Y_reg/L7 (in U2/XOR_L/Y_reg macro) cannot be properly analyzed as its control pin U2/XOR_L/Y_reg/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch U2/XOR_V/Y_reg/L7 (in U2/XOR_V/Y_reg macro) cannot be properly analyzed as its control pin U2/XOR_V/Y_reg/L7/G is not reached by a timing clock
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'BPL' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock GCLK 5.000 [get_ports BPL]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 135)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'BPV' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock GCLK 5.000 [get_ports BPV]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 134)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'BPreset' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock GCLK 5.000 [get_ports BPreset]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 136)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'RESET' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock GCLK 5.000 [get_ports RESET]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 141)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'START' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock GCLK 5.000 [get_ports START]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 137)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'TEST' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock GCLK 5.000 [get_ports TEST]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 138)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'TEST_HSLS' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock GCLK 5.000 [get_ports TEST_HSLS]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 139)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'WAIT_t' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock GCLK 5.000 [get_ports WAIT_t]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 140)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'AN[0]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {AN[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 145)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'AN[1]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {AN[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 145)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'AN[2]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {AN[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 145)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'AN[3]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {AN[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 145)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'LEDS[0]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {LEDS[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 144)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'LEDS[1]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {LEDS[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 144)
+Related violations: <none>
+
+XDCH-2#15 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'LEDS[2]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {LEDS[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 144)
+Related violations: <none>
+
+XDCH-2#16 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'LEDS[3]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {LEDS[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 144)
+Related violations: <none>
+
+XDCH-2#17 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'LEDS[4]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {LEDS[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 144)
+Related violations: <none>
+
+XDCH-2#18 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'LEDS[5]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {LEDS[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 144)
+Related violations: <none>
+
+XDCH-2#19 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'LEDS[6]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {LEDS[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 144)
+Related violations: <none>
+
+XDCH-2#20 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'LEDS[7]' relative to clock GCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock GCLK 5.000 [get_ports {LEDS[*]}]
+C:/Users/mapam/Documents/Polytech/ETN/S8/SOPC/projetTableauScorev3/projetTableauScore/projetTableauScore.srcs/constrs_1/new/chronoscore.xdc (Line: 144)
+Related violations: <none>
+
+
